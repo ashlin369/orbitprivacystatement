@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orbit App - Privacy Policy</title>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-color: #f6f7f8;
+            --card-color: #ffffff;
+            --title-color: #0f172a;
+            --text-color: #475569;
+            --accent-color: #307de8;
+            --border-color: rgba(15, 23, 42, 0.05);
+        }
+
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --bg-color: #111821;
+                --card-color: #1e293b;
+                --title-color: #ffffff;
+                --text-color: #cbd5e1;
+                --border-color: rgba(255, 255, 255, 0.04);
+            }
+        }
+
+        body {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 24px;
+        }
+
+        header {
+            margin-bottom: 40px;
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 20px;
+        }
+
+        h1 {
+            color: var(--title-color);
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin: 0 0 10px 0;
+        }
+
+        .subtitle {
+            font-size: 0.95rem;
+            color: var(--text-color);
+            opacity: 0.8;
+            margin: 0;
+        }
+
+        .card {
+            background-color: var(--card-color);
+            border-radius: 24px;
+            padding: 24px;
+            margin-bottom: 24px;
+            border: 1px solid var(--border-color);
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
+        }
+
+        h2 {
+            color: var(--title-color);
+            font-size: 1.25rem;
+            font-weight: 600;
+            margin-top: 0;
+            margin-bottom: 14px;
+        }
+
+        p {
+            margin: 0 0 16px 0;
+            font-size: 0.95rem;
+        }
+
+        p:last-child {
+            margin-bottom: 0;
+        }
+
+        ul {
+            margin: 0 0 16px 0;
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 8px;
+            font-size: 0.95rem;
+        }
+
+        .highlight-box {
+            background-color: var(--bg-color);
+            border-radius: 14px;
+            padding: 16px;
+            margin-top: 16px;
+            border-left: 4px solid var(--accent-color);
+        }
+
+        .highlight-box p {
+            font-size: 0.9rem;
+            margin-bottom: 8px;
+        }
+        
+        .highlight-box p:last-child {
+            margin-bottom: 0;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 60px;
+            font-size: 0.85rem;
+            opacity: 0.7;
+            color: var(--text-color);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>Orbit</h1>
+            <p class="subtitle">Privacy Policy &nbsp;|&nbsp; Last updated: July 2026</p>
+        </header>
+
+        <main>
+            <div class="card">
+                <h2>1. Introduction</h2>
+                <p>Orbit ("we", "our", or "us") is committed to protecting your privacy. This Privacy Policy explains how your personal information is collected, used, and disclosed by Orbit. By accessing or using our Service, you signify that you have read, understood, and agree to our collection, storage, use, and disclosure of your personal information as described in this Privacy Policy.</p>
+            </div>
+
+            <div class="card">
+                <h2>2. Data We Collect & Process</h2>
+                <p>We collect information that you provide directly to us or that is generated via ecosystem modules:</p>
+                <ul>
+                    <li><strong>Account Information:</strong> Display name, email address, profile picture (photoUrl), country, primary currency, and application preference selections.</li>
+                    <li><strong>Financial Ledger Data:</strong> Complete transaction history (expenses, inflows, and investments), monetary amounts, categories, notes, and payment account balances.</li>
+                    <li><strong>Asset & Inventory Information:</strong> Details regarding household or business inventory assets, logs, service history arrays, and linked billing files.</li>
+                    <li><strong>Planner & Routines:</strong> Daily planner tasks, recurring checklists, milestone parameters, calendar schedules, long-term savings goals, and habit tracker history grids.</li>
+                    <li><strong>Medical Records:</strong> Household medical profile attributes (blood group, chronic conditions, and allergy hazard levels), insurance policies, and prescription lists.</li>
+                    <li><strong>Usage Telemetry:</strong> Data concerning how you interact with dashboard elements, bento panel clicks, and system crash reports.</li>
+                </ul>
+
+                <div class="highlight-box">
+                    <p><strong>Permissions & Local Processing Operations:</strong></p>
+                    <p>• <strong>Device Contacts:</strong> With your explicit permission, we access your device's address book strictly locally to initialize a native picker interface, allowing you to quickly bind emergency or care team contacts. We never store, transmit, or cache your contact book details on our remote servers.</p>
+                    <p>• <strong>Clipboard Data:</strong> To remain compliant with app store policies regarding SMS data, Orbit uses a local clipboard isolate loop scanner. When the transaction importing screen gains focus, text is analyzed entirely on-device to auto-detect currency strings (such as ₹, inr, $, usd) and payment keywords (like debited, spent, paid, credited). This triggers a swift banner allowing manual paste parsing imports; your raw clipboard content is never transmitted or stored externally.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <h2>3. Collaborative Workspace Scoping & Sharing</h2>
+                <p>Orbit is designed for real-time household collaboration. Data separation and access paths are systematically gated by active workspace scopes:</p>
+                <ul>
+                    <li><strong>Multi-Tenant Scoping:</strong> Individual modules (expenses, tasks, documents, notes) are bound dynamically by a householdId tag. Tapping the workspace switcher triggers an instantaneous live recalculation across your visible dashboard panels.</li>
+                    <li><strong>Partner Workspace Visibility:</strong> Linking an account with a partner allows shared expenses, asset management cards, checklist schedules, and markdown notes to be jointly viewed, modified, or permanently deleted by either user.</li>
+                    <li><strong>Disconnecting Channels:</strong> If you terminate your partner link or exit a shared household space, access authorizations to your subsequent workspace records are immediately revoked.</li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <h2>4. Data Security, Storage & Offline Architecture</h2>
+                <p>We implement defensive security systems and custom local processing layers to keep your vault secure:</p>
+                <ul>
+                    <li><strong>Backend Architecture:</strong> Remote database items are handled securely inside Google Cloud (Firebase) infrastructure utilizing standard encryption (AES-256) at rest and TLS/SSL encryption models in transit.</li>
+                    <li><strong>Offline-First Engine:</strong> To support complete productivity offline, Firestore is configured with an unlimited local caching database cache on disk. Writes, log entries, or text modifications are queued locally in an internal SQLite wrapper and auto-replayed to cloud collections upon re-establishing a network handshake.</li>
+                    <li><strong>Biometric Security Gateway:</strong> Accessing sensitive household files or changing core profile records prompts a native system biometric authentication layer (local_auth) to enforce local platform access controls.</li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <h2>5. Data Retention & Deletion</h2>
+                <p>We retain your data records for as long as your profile remains active. You maintain an absolute "Right to be Forgotten". When you invoke account deletion within your application profile settings:</p>
+                <ul>
+                    <li>All personal, financial, asset, checklist, and medical profile subcollections are immediately and permanently removed from our active Firestore databases.</li>
+                    <li>All raw image uploads, receipt text data, and PDF binary blobs stored inside Firebase Storage are safely cleared. Backup system indices may briefly persist during transition loops but are subject to strict data security blocks.</li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <h2>6. User Rights (GDPR/CCPA Compliance)</h2>
+                <p>Depending on your geographic location, you possess distinct data protection parameters, including:</p>
+                <ul>
+                    <li><strong>Right of Access:</strong> You can generate and export a complete structured file layout of your personal data records via the settings menu at any time.</li>
+                    <li><strong>Right to Rectification:</strong> You retain full power to edit your display metrics, financial records, and category metrics directly.</li>
+                    <li><strong>Right to Erasure:</strong> You can request account deletion or clear history lines independently at any point.</li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <h2>7. Contact Us</h2>
+                <p>If you have any questions, compliance queries, or security feedback regarding this Privacy Policy, please contact us at:</p>
+                <p>Email: <a href="mailto:babuashlin829@gmail.com" style="color: var(--accent-color); text-decoration: none; font-weight: 600;">babuashlin829@gmail.com</a></p>
+            </div>
+        </main>
+
+        <footer>
+            <p>&copy; 2026 Orbit App. All rights reserved.</p>
+        </footer>
+    </div>
+
+</body>
+</html>
